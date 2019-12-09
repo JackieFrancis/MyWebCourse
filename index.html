@@ -7,7 +7,19 @@
     <title>Basics of HTML, CSS and JavaScript</title>
 <script>
     function init(){
-        document.getElementById("name").innerHTML='Kousalya';
+        document.getElementById("name").innerHTML='Kousalya Pannuri';
+        
+        // BONUS
+        let outputString = '<ul>';
+            let hobbies = ['gardening', 'running'];
+            for (let index = 0; index < hobbies.length; index++) {
+                const element = hobbies[index];
+
+                outputString += '<li>' + element + '</li>'
+            }
+            outputString += '</ul>';
+
+            document.getElementById("hobbies").innerHTML = outputString;
     }
 </script>
 <style>
@@ -23,5 +35,6 @@
 
 <body onload="init()">
     <div id="name"></div>
+    <div id="hobbies"></div>
 </body>
 </html>
