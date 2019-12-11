@@ -1,0 +1,7 @@
+header {background-color: orange;}
+body {color:red;}
+h2{color:green}
+header h2{color:black}
+#loremipsum h2 span{color:black}
+p{color:blue}
+.two {color:black}

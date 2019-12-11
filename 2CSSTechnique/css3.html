@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practice CSS3</title>
+    <style>
+            .outer {
+            padding: 10px;
+            margin-left: 20px;
+            float: left;
+            width: 400px;
+            height: 250px;
+            background: #ccc;
+        }
+        
+        .inner-box {
+            padding: 10px;
+            margin: 0 auto;
+            width: 100px;
+            height: 100px;
+            background: #FFF;
+        
+            /* Give this box a 50% transparency, 
+               a border radius of 10px, and a box shadow */
+        
+        }
+        .inner-box:hover{
+            background-color: red;
+            color:white;
+        }
+        
+    </style>   
+</head>
+<body>
+        <div id="container">                
+            <div class="outer">
+                <div class="inner-box">
+                            Make this box rounded, with a shadow, and 50% transparency
+                </div>
+            </div>
+        </div>
+        
+</body>
+</html>

@@ -1,0 +1,65 @@
+/* @import url('halloween.css'); */
+
+@media screen {
+
+   header {background-color: orange;
+            text-align: center;
+            background: linear-gradient(to bottom,  rgba(159,95,5,1) 0%,rgba(204,168,6,1) 13%,rgba(186,112,8,1) 47%,rgba(220,143,42,1) 77%,rgba(228,184,126,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    }
+    h1 {font-family: 'Courier New', Courier, monospace;}        
+    
+    nav li{list-style: none;
+        font-size: 2em;   
+        display: inline; 
+        padding-inline: 5px;
+    }
+    
+    nav li a{text-decoration: none;
+            font-variant: small-caps;
+            background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)),
+                  url("../../media/examples/lizard.png");
+    }
+
+    body {color:red;
+          font-size: 100%;   
+          background-color: lightgray;  
+    }
+    h2{color:green;
+        font-style: italic;
+        background: linear-gradient(to bottom, rgba(174,188,191,1) 0%,rgba(10,14,10,1) 15%,rgba(10,14,10,1) 15%,rgba(110,119,116,1) 50%,rgba(10,8,9,1) 100%); 
+        }
+    header h2{color:black;
+        font-size: 1.5em;
+    }
+    #loremipsum h2 span{color:black}
+
+    article {
+        border-bottom:red 2px solid;
+        padding-bottom: 1rem;
+    }
+
+    p{color:blue;
+        font-size: 18px;
+    }
+    .two {color:black;
+        font:bold 15px Arial, sans-serif;
+    }
+
+    footer a:link,footer a:visited {background-color: red;
+        color:white;
+        font-weight: bold;
+        }
+
+    footer a:hover{ background-color: white;
+        color:red;
+        font-weight: bold;
+    }
+
+    #copyright {
+        padding-top: 1rem;
+    }
+
+
+
+
+}

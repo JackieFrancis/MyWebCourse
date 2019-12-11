@@ -1,0 +1,17 @@
+
+nav a {text-decoration: none;}
+
+nav li { display: inline;
+         border: purple 2px solid;        
+         padding:5px ;
+         border-radius: 5px;
+         background-color: lightgray;
+}
+
+nav li:hover{
+    background-color: purple;
+}
+
+a:hover{
+    color:white;
+}
